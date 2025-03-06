@@ -181,4 +181,3 @@ app.delete('/post/:id', async (req, res) => {
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-//mongodb+srv://blog:1234@cluster.xghc8d4.mongodb.net/?retryWrites=true&w=majority
